@@ -2,10 +2,10 @@ services:
   notebook:
     restart: unless-stopped
     container_name: notebook
-    build: 
+    build:
       context: .
       dockerfile: Dockerfile
     ports:
-      - 3000:3000
+      - 8888:8888
     volumes:
       - .:/app
