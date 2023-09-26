@@ -1,0 +1,11 @@
+services:
+  notebook:
+    restart: unless-stopped
+    container_name: notebook
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 3000:3000
+    volumes:
+      - .:/app

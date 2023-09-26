@@ -1,0 +1,12 @@
+mechatroner.rainbow-csv
+ms-python.black-formatter
+ms-azuretools.vscode-docker
+ms-vscode-remote.remote-containers
+ms-toolsai.jupyter
+ms-toolsai.vscode-jupyter-cell-tags
+ms-toolsai.jupyter-keymap
+ms-toolsai.jupyter-renderers
+ms-toolsai.vscode-jupyter-slideshow
+ms-python.vscode-pylance
+ms-python.python
+redhat.vscode-yaml
