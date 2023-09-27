@@ -9,3 +9,8 @@ services:
       - 8888:8888
     volumes:
       - .:/app
+    deploy:
+      resources:
+        limits:
+          cpus: "4"
+          memory: 4G
