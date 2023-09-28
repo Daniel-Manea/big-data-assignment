@@ -55,7 +55,7 @@ To start the API endpoint using `uvicorn`, follow these steps:
 2. Run the following command to start the API endpoint:
 
    ```bash
-   uvicorn api:app --reload
+   uvicorn api.main:app --reload
    ```
 
    This command will start the API using `uvicorn`. The `--reload` option enables auto-reloading, which means the server will automatically restart whenever you make changes to the code.
