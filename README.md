@@ -23,7 +23,7 @@ Before you begin, make sure you have the following installed on your system:
 3. Run the following command to start the containers:
 
    ```bash
-   docker-compose up -d
+   docker compose up -d
    ```
    
 This command will build and start the Docker containers as specified in the `docker-compose.yml` file.
