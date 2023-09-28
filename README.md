@@ -28,7 +28,7 @@ Before you begin, make sure you have the following installed on your system:
    
 This command will build and start the Docker containers as specified in the `docker-compose.yml` file.
 
-### Accessing Jupyter Notebook
+## Accessing Jupyter Notebook
 
 The Jupyter Notebook environment should be accessible at `http://localhost:8888`.
 
