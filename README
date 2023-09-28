@@ -1,3 +1,4 @@
+```markdown
 # Big Data Assignment Dockerized Environment
 
 This repository contains a Docker Compose setup for running a Jupyter Notebook environment and an API endpoint using Docker. The containers can be easily started using `docker-compose`. Additionally, we'll explain how to start the API endpoint using `uvicorn`.
@@ -45,5 +46,4 @@ To start the API endpoint using `uvicorn`, follow these steps:
 3. Once the API is running, you should see output indicating the server has started. By default, the API will be available at `http://localhost:8000`.
 
 You can now interact with the API by sending HTTP requests to the specified endpoints.
-
-Remember that the Jupyter Notebook environment and the API endpoint are running in separate Docker containers. If you make changes to the code for the API, it will not affect the Jupyter Notebook environment, and vice versa.
+```
