@@ -4,3 +4,4 @@ matplotlib
 numpy==1.25.2
 seaborn
 scipy
+fastapi
