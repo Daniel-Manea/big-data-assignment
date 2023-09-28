@@ -25,8 +25,26 @@ Before you begin, make sure you have the following installed on your system:
    ```bash
    docker-compose up -d
    ```
+   
+This command will build and start the Docker containers as specified in the `docker-compose.yml` file.
 
-   This command will build and start the Docker containers as specified in the `docker-compose.yml` file. The Jupyter Notebook environment should be accessible at `http://localhost:8888`.
+### Accessing Jupyter Notebook
+
+The Jupyter Notebook environment should be accessible at `http://localhost:8888`.
+
+You can also access the Jupyter Notebook by connecting to the running container using Visual Studio Code's "Remote - Containers" extension. Follow these steps:
+
+1. Open Visual Studio Code.
+
+2. Install the "Remote - Containers" extension if you haven't already.
+
+3. Click on the green icon in the bottom-left corner that says "Open a Remote Window."
+
+4. Select "Remote-Containers: Attach to Running Container..."
+
+5. Choose the running container named "notebook" (as specified in `docker-compose.yml`).
+
+This will open a Visual Studio Code window inside the running container, allowing you to work with the Jupyter Notebook environment directly from Visual Studio Code.
 
 ## Starting the API Endpoint
 
